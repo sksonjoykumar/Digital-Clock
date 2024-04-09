@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Playfair+Display+SC:wght@400;700;900&family=Playfair:ital,opsz@0,5..1200;1,5..1200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(90deg, #fdbb2d 0%, #22c1c3 100%);
+}
+
+.main-section {
+  margin: 8rem auto 0;
+  display: flex;
+  justify-content: center;
+}
+.main-section .clock-data {
+  background: linear-gradient(90deg, #f8cc6e 0%, #915fef 100%);
+  box-shadow: 3px 2px 3px #c1c1c1;
+  width: 35rem;
+  padding: 2rem 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}
+.main-section .clock-data .clock-value {
+  text-align: center;
+  width: 140px;
+  padding: 0 10 px;
+  color: #ffffff;
+}
+.main-section .clock-data .clock-value h1 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+.main-section .clock-data .clock-value p {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: -10px;
+  text-align: center;
+  margin-left: -30px;
+}
+.main-section .clock-data .heading {
+  position: absolute;
+  top: -25px;
+  padding: 10px 20px;
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 400;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #4944ec 0%, #3af29c 100%);
+  box-shadow: 2px 2px 3px #868686;
+}/*# sourceMappingURL=style.css.map */
